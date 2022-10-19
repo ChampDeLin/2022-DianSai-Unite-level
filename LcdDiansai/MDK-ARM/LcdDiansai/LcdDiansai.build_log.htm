@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.2
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M4, HP Inc., LIC=CZLZX-H7AZN-HL0CL-06E8C-GA9NL-5XDCT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.31.0.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.6.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\HP\Desktop\2022SevenSchool\LcdDiansai\MDK-ARM\LcdDiansai.uvprojx
+Project File Date:  05/28/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'LcdDiansai'
+compiling main.c...
+../users/laser.h(30): warning:  #1295-D: Deprecated declaration laser_10Hz - give arg types
+  void laser_10Hz();
+../users/laser.h(31): warning:  #1295-D: Deprecated declaration laser_20Hz - give arg types
+  void laser_20Hz();
+../Src/main.c(464): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                    cos((scan_object.date[i].angle - scan_object.date[j].angle)*PI/180));
+../Src/main.c(867): warning:  #111-D: statement is unreachable
+    test1();
+../Src/main.c(786): warning:  #177-D: variable "x"  was declared but never referenced
+        uint8_t x=0;
+../Src/main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=44092 RO-data=19452 RW-data=48 ZI-data=3840  
+FromELF: creating hex file...
+"LcdDiansai\LcdDiansai.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\HP\Desktop\2022SevenSchool\LcdDiansai\MDK-ARM\RTE
+  D:\keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\keil\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+</pre>
+</body>
+</html>
